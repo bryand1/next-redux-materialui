@@ -6,6 +6,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import JssProvider from 'react-jss/lib/JssProvider';
 import withReduxStore from '../lib/with-redux-store';
 import getPageContext from '../src/getPageContext';
+// import Router from 'next/router';
+// import withFBQ from 'next-fbq';
 
 class MyApp extends App {
   constructor(props) {
@@ -50,4 +52,6 @@ class MyApp extends App {
   }
 }
 
+// TODO: Enable Facebook Pixel
+// export default withFBQ('XXXXXXXXXXXXXXX', Router)(withReduxStore(MyApp));
 export default withReduxStore(MyApp);

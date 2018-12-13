@@ -45,6 +45,21 @@ Delete `lib/gtag.js` then delete the following from `pages/_document.js`
 //...
 ```
 
+## Facebook Tracking Pixel
+
+In `pages/_app.js` uncomment/edit these lines:
+
+```javascript
+// import Router from 'next/router';
+// import withFBQ from 'next-fbq';
+```
+
+```javascript
+// TODO: Enable Facebook Pixel
+// export default withFBQ('XXXXXXXXXXXXXXX', Router)(withReduxStore(MyApp));
+export default withReduxStore(MyApp);
+```
+
 ## Resources
 
 + [React](https://reactjs.org/)
@@ -54,6 +69,7 @@ Delete `lib/gtag.js` then delete the following from `pages/_document.js`
 + [Express](https://expressjs.com/)
 + [Docker](https://www.docker.com/)
 + [Google Analytics](https://analytics.google.com)
++ [Facebook Pixel](https://www.facebook.com)
 
 ## Improvements welcome
 

@@ -13,6 +13,7 @@
     "express": "^4.16.4",
     "jss": "latest",
     "next": "latest",
+    "next-fbq": "^2.0.0",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
